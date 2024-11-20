@@ -16,7 +16,6 @@ mkdir -p "$carpeta_fecha"
 
 # Empezar monitorización y guardar datos
 archivo="$carpeta_fecha/dumpeo 2,4bg y 5a_$fecha"
-# sudo airodump-ng -w "$archivo" wlan0mon --band abg // ESTE ES EL ANTERIOR
 sudo airodump-ng wlan0mon --manufacturer --uptime --beacons --gpsd --wps --showack -w "$archivo" --band abg
 
 
