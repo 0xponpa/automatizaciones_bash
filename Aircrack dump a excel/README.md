@@ -1,0 +1,2 @@
+Esta automatización, dentro de una carpeta llamada "Dumpeos" dentro del desktop de un kali (editar si fuese necesario), pone wlan0 en modo monitor, coge la fecha de ejecución del script, crea una carpeta con dicha fecha, y dentro de dicha carpeta crea un csv y un excel del dumpeo
+Dicho excel añade, además de los parámetros básicos de dumpeo en un airodump, una columna del fabricante del AP, otra con el uptime, otra con las coordenadas GPS, otra con wi tiene WPS o no activo, y otra para la banda tanto 2,4ghz como 5ghz en B/G/N/A/C/X
